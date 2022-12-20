@@ -1,5 +1,8 @@
 # OSS on Azure using Java + Spring
 
+
+**NOTE: THE ACTIONS IN THIS REPO DO WORK, THE REPO SECRETS JUST AREN'T SET UP**
+
 This is used for the OSS on Azure using Java + Spring / App Modernisation sprint.
 
 **Note:** Instead of using `java -jar target/*.jar` to run the application locally, you should use `./mvnw spring-boot:run` as the former doesn't seem to work very well.
