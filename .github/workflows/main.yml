@@ -12,7 +12,8 @@ env:
   AZURE_SUBSCRIPTION_ID: 'cfe96ac1-4cd0-40ad-9751-b18802bf8822'
   
   DEV_KEY_VAULT_NAME: 'kvossonazurejavaspringde'
-  DEV_APP_NAME: 'pet-clinic-1'
+  #DEV_APP_NAME: 'pet-clinic-1'
+  DEV_APP_NAME: 'pet-clinic-travis'
   DEV_APP_SERVICE: 'ossonazure-javaspring-host-dev'
   
   PROD_APP_NAME: 'pet-clinic-2'
