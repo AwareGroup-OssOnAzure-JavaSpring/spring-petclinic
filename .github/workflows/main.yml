@@ -97,7 +97,7 @@ jobs:
           echo "POSTGRES_PASS=$POSTGRES_PASS" >> $GITHUB_ENV
           echo "POSTGRES_USER=$POSTGRES_USER" >> $GITHUB_ENV
           
-      - name: Deploy Pet Clinic application to the Dev environment
+      - name: Deploy the Pet Clinic application to the Dev environment
         uses: Azure/spring-apps-deploy@v1
         with:
           azure-subscription: ${{ env.AZURE_SUBSCRIPTION_ID }}
