@@ -1,8 +1,6 @@
 # OSS on Azure using Java + Spring
 
 
-seplling mistkae hre
-
 **NOTE: THE ACTIONS IN THIS REPO DO WORK, THE REPO SECRETS JUST AREN'T SET UP**
 
 This is used for the OSS on Azure using Java + Spring / App Modernisation sprint.
