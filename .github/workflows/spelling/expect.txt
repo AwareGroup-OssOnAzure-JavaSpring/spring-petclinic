@@ -6,11 +6,11 @@ workflows
 github
 petclinic
 svg
-[G][g]itpod
+[Ggitpod
 speakerdeck
 href
 michaelisvy
-[G][g]radle
+[Gg]radle
 localhost
 http
 png
@@ -25,8 +25,9 @@ gradlew
 Dockerfile
 url
 testdb
-[J][j]dbc
-[P][p]ostgres
+[Jj]dbc
+[Pp]ostgre
+[Pp]ostgres
 mysql
 MYSQL
 POSTGRES
@@ -56,3 +57,5 @@ microservices
 reactjs
 graphql
 kotlin
+cla
+[Jj][Dd][Bb][Cc]
