@@ -16,12 +16,12 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
       
-    - name: Run check style
+    - name: Run style checks for Java code
       uses: nikitasavinov/checkstyle-action@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         reporter: 'github-pr-check'
-        tool_name: 'testtool'
+        tool_name: 'ReviewDog'
         workdir: 'src'
         fail_on_error: true
         level: 'error'
