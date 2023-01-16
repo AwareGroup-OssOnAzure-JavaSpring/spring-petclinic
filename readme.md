@@ -1,7 +1,7 @@
 # OSS on Azure using Java + Spring
 
 
-**NOTE: THE ACTIONS IN THIS REPO DO WORK, THE REPO SECRETS JUST AREN'T SET UP**
+**NOTE: THE ACTIONS IN THIS REPO DO WORK, THE REPO SECRETS JUST AREN'T SET UP/THE RESOURCES HAVE PROBABLY BEEN DELETED**
 
 This is used for the OSS on Azure using Java + Spring / App Modernisation sprint.
 

@@ -18,3 +18,5 @@ jobs:
       uses: check-spelling/check-spelling@v0.0.21
       with:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        config: .github/workflows/spelling
+        only_check_changed_files: 1
