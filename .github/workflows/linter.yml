@@ -10,7 +10,7 @@ jobs:
   checkstyle_job:
     runs-on: ubuntu-latest
     
-    name: Checkstyle job
+    name: Java style checks
     
     steps:
     - name: Checkout
