@@ -22,6 +22,8 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.context.SpringBootTest.WebEnvironment;
+
+
 import org.springframework.boot.test.web.server.LocalServerPort;
 import org.springframework.boot.web.client.RestTemplateBuilder;
 import org.springframework.http.HttpStatus;
@@ -35,16 +37,21 @@ class PetClinicIntegrationTests {
 
 	@LocalServerPort
 	int port;
+	
+		
 
-	@Autowired
-	private VetRepository vets;
+		@Autowired
+		private VetRepository vets;
 
 	@Autowired
 	private RestTemplateBuilder builder;
 
 	@Test
 	void testFindAll() throws Exception {
-		vets.findAll();
+vets.findAll();
+		
+		
+		
 		vets.findAll(); // served from cache
 	}
 
